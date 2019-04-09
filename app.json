@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "name": "CurrencyTracker",
+    "version": "1.0.0",
+    "slug": "test000",
+    "ios": {
+      "bundleIdentifier": "com.yuanyu.CurrencyTracker"
+    },
+    "android": {
+      "package": "com.yuanyu.CurrencyTracker"
+    },
+    "icon": "./euro.png"
+  }
+}

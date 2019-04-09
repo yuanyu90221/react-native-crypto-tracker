@@ -1,0 +1,36 @@
+{
+  "name": "react-redux-crypto-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "25.0.0",
+    "react-native-scripts": "1.11.1",
+    "react-test-renderer": "16.2.0",
+    "redux-logger": "^3.0.6",
+    "remote-redux-devtools": "^0.5.12",
+    "remotedev-rn-debugger": "^0.8.3"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js",
+    "postinstall": "remotedev-debugger --hostname localhost --port 5678 --injectserver"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expo": "^25.0.0",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0"
+  }
+}
