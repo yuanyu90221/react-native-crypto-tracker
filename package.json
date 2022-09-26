@@ -23,7 +23,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "expo": "^25.0.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
