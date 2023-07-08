@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "jest-expo": "25.0.0",
+    "jest-expo": "49.0.0",
     "react-native-scripts": "2.0.1",
     "react-test-renderer": "16.2.0",
     "redux-logger": "^3.0.6",
